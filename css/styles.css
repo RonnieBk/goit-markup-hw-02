@@ -1,0 +1,13 @@
+.body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: black;
+}
+.menu > .button {
+  cursor: pointer;
+}
+.menu .button:active {
+  background-color: blue;
+}
+.main-pages > .page:active {
+  color: blue;
+}
