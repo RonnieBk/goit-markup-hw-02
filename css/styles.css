@@ -25,15 +25,19 @@ footer > a.logo {
   color: var(--selection-color);
 }
 
-nav > .links {
+.main-links .link {
+  color: var(--main-color);
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--main-color);
 }
-.links > .link:active {
-  color: #2196f3;
+
+.main-links a:hover,
+.main-links a:focus {
+  color: var(--selection-color);
 }
+
 header > .contact {
   text-decoration: none;
   color: var(--secondary-color);
@@ -42,22 +46,16 @@ header > .contact {
   line-height: 1.14;
 }
 
-.contact:hover,
-.contact:focus {
-  color: var(--selection-color);
-}
-
-.menu > .button {
-  display: inline;
+.buttons .button {
   cursor: pointer;
-  background-color: red;
+  color: var(--main-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
 }
-.menu > .button:focus,
-.menu > .button:hover {
-  background-color: #2196f3;
+.buttons .button:focus,
+.buttons .button:hover {
+  background-color: var(--selection-color);
   color: #fff;
 }
 
@@ -86,6 +84,11 @@ header > .contact {
 .address > .phone-number {
   text-decoration: none;
 }
+.contact:hover,
+.contact:focus {
+  color: var(--selection-color);
+}
+
 footer {
   background-color: #2f303a;
 }
