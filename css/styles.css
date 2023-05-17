@@ -5,7 +5,7 @@
   --secondary-color: #757575;
 }
 
-.body {
+body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
 }
@@ -28,6 +28,7 @@ footer > a.logo {
 .main-links .link {
   color: var(--main-color);
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -38,25 +39,72 @@ footer > a.logo {
   color: var(--selection-color);
 }
 
+.main-headline > .headline {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-headline {
+  background-color: #2f303a;
+}
+
 header > .contact {
   text-decoration: none;
+  font-size: 14px;
   color: var(--secondary-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.14;
 }
 
-.buttons .button {
+.main-headline .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.headline {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
+.button {
   cursor: pointer;
   color: var(--main-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
 }
-.buttons .button:focus,
-.buttons .button:hover {
+.button:focus,
+.button:hover {
   background-color: var(--selection-color);
   color: #fff;
+}
+
+.introduction-text li {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.text {
+  font-weight: 400;
+  line-height: 1.71;
+  text-transform: none;
+  color: var(--secondary-color);
 }
 
 .pictures .title {
@@ -72,9 +120,25 @@ header > .contact {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
+.team-members .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+
+.team-members .description {
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
 .address {
   color: #fff;
   font-style: normal;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
